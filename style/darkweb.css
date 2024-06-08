@@ -1,0 +1,92 @@
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    font-family: 'Nosifer', cursive;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+main {
+border-radius: 15px;
+    margin: 15px;
+}
+
+section {
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+button{
+    background-color: #121212;
+}
+.button {
+    display: block;
+    margin: auto;
+    background-color: #000000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #333;
+}
+.button-container {
+    
+    display: flex;
+    justify-content: flex-end;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+section {
+    animation: fadeIn 3s ease-in-out;
+    /* rest of the styles */
+}
+.text{
+    color: #fff;
+}
+body, html {
+    overflow: auto; /* This allows scrolling */
+}
+.my-gif {
+    width: 800px;  /* adjust as needed */
+    height: auto;  /* keeps the aspect ratio */
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:70vh; /* Optional: This will center the image vertically as well */
+}
+#smoke-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; 
+}
